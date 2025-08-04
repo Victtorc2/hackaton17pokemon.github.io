@@ -1,0 +1,30 @@
+.pokemon-card {
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border: none;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.pokemon-card img {
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover img {
+  transform: scale(1.05);
+}
+
+.pokemon-card .card-body {
+  padding: 1rem 0.5rem;
+}
+
+.pokemon-card .badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+}
